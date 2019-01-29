@@ -1,0 +1,10 @@
+# Code editor
+/.vscode
+
+# Dependencies
+/node_modules
+
+# Misc
+/coverage
+/.eslintcache
+/.env
