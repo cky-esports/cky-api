@@ -2,7 +2,7 @@ const mysql = require('mysql');
 const config = require('../config');
 
 const pool = mysql.createPool({
-  charset: 'utf8mb4',
+  charset: process.env.CHARSET,
   connectionLimit: process.env.CONNECTION_LIMIT,
   host: process.env.HOST,
   user: process.env.USER,
